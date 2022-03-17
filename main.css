@@ -49,6 +49,8 @@ main {
 
   }
   div > h1 {
+    ont-weight: 500; 
+    font-size: 40px;
 
   }
   div > p {
@@ -64,7 +66,8 @@ main {
   main > img {
     float:right; 
     width: 50%; 
-    height: 50%;
+    object-fit: contain;
+    object-position: center;
 
 
   }
